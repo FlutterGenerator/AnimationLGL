@@ -1,0 +1,8 @@
+jdk:
+  - openjdk8
+
+build:
+  gradle:
+    build-file: library/build.gradle
+    tasks:
+      - publishToMavenLocal

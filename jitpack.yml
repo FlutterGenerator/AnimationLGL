@@ -1,6 +1,9 @@
 jdk:
   - openjdk8
 
+before_install:
+  - sdk install java 8.0.412-tem || true
+
 build:
   gradle:
     build-file: library/build.gradle

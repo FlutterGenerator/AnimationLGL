@@ -1,8 +1,8 @@
 jdk:
-  - openjdk8
+  - openjdk17
 
 before_install:
-  - sdk install java 8.0.412-tem || true
+  - sdk install java 17.0.12-oracle || true
 
 build:
   gradle:

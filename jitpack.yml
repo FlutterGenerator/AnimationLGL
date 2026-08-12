@@ -6,6 +6,6 @@ before_install:
 
 build:
   gradle:
-    build-file: library/build.gradle
+    build-file: animation/build.gradle
     tasks:
       - publishToMavenLocal
